@@ -7,7 +7,6 @@
   <meta http-equiv=Content-Type content="text/html; charset=utf-8">
   <meta name="description" content="Web con herramientas de productividad para el día a día">
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
 </head>
 
 <body>
@@ -22,7 +21,15 @@
   </nav>
   <section>
     <div class='recuadro' id="uno">
-      <img src="https://files.tecnoblog.net/wp-content/uploads/2020/03/pomodoro-timer.jpg" />
+      <div class="container">
+        <div class="reloj">
+          <div class="contador">Reloj Pomodoro </div>
+          <p><span class="minutes" id="minutes">25</span>:<span class="seconds" id="seconds">00</span></p>
+          <button class="btn-start" id="btn-start">start</button>
+        </div>
+
+
+      </div>
 
     </div>
 
@@ -63,5 +70,6 @@
     <a href="#">Tiwtter</a>
   </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
