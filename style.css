@@ -58,18 +58,14 @@ section {
 
 
 
-.recuadro {
-
-  border: 1px solid #255184;
-
-  width: 49.5%;
-  display: inline-block;
-
-
-  height: 49.5%;
-
+.div {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-
+  border: 1px solid #255184;
   background-color: #255184;
 
 }
@@ -95,42 +91,4 @@ h4 {
   color: #255184;
 }
 
-#uno {
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)), url("https://files.tecnoblog.net/wp-content/uploads/2020/03/pomodoro-timer.jpg");
 
-}
-
-.container {
-  width: 250px;
-  height: 420px;
-  margin: 40px auto;
-  text-align: center;
-  border-radius: 5px;
-  padding: 20px;
-}
-
-.reloj {
-  font-family: 'Droid Sans Mono', monospace;
-  font-size: 250%;
-  position: relative;
-  top: 50px;
-  color: #d8e9ef;
-}
-
-button {
-  position: relative;
-  top: 50px;
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: none;
-  background: none;
-  outline: none;
-  color: #d8e9ef;
-}
-
-button:hover {
-  color: #90c0d1;
-}

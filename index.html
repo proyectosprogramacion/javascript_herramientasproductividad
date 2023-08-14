@@ -3,10 +3,11 @@
 
 <head>
   <title>Herramientas de productividad</title>
-  <meta name="title" content="Título de la WEB">
+  <meta name="title" content="Herramientas de productividad">
   <meta http-equiv=Content-Type content="text/html; charset=utf-8">
   <meta name="description" content="Web con herramientas de productividad para el día a día">
   <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="style_Pomodoro.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -20,12 +21,23 @@
 
   </nav>
   <section>
-    <div class='recuadro' id="uno">
-      <div class="container">
+    <div class='div' id="uno">
+
+      <div class="contenedor">
         <div class="reloj">
-          <div class="contador">Reloj Pomodoro </div>
-          <p><span class="minutes" id="minutes">25</span>:<span class="seconds" id="seconds">00</span></p>
-          <button class="btn-start" id="btn-start">start</button>
+         
+          <div class="contador"> </div>
+          <h1 id="titulo">Reloj Pomodoro<h1> 
+          <div id="btnTiempo">
+             <button class="btnRojo" id="btnPomodoro">Pomodoro</button>
+              <button class="btnRojo" id="btnDescansoCorto">5 minutos</button>
+              <button class="btnRojo" id="btnDescansoLargo">10 minutos</button>
+          </div>
+         
+          <p id="minutos25"><span class="minutos" id="minuto_25">25</span>:<span class="segundo" id="segundo_25">00</span></p>
+           <p id="minutos05"><span class="minutos" id="minuto_05">05</span>:<span class="segundo" id="segundo_05">00</span></p>
+            <p id="minutos10"><span class="minutos" id="minuto_10">10</span>:<span class="segundo" id="segundo_10">00</span></p>
+          <button class="btnRojo" id="btnEmpezar">Empezar</button>
         </div>
 
 
@@ -33,30 +45,30 @@
 
     </div>
 
-    <div class='recuadro' id="dos">
+    <div class='div' id="dos">
       <img src="https://desktime.com/blog/wp-content/uploads/2021/03/feature.png" />
 
     </div>
 
 
 
-    <div class='recuadro' id="tres">
+    <div class='div' id="tres">
       <img src="https://img.freepik.com/vector-gratis/nota-papel-sobre-fondo-memphis_53876-99284.jpg?w=2000" />
 
     </div>
   </section>
   <section>
-    <div class='recuadro' id="cuatro">
+    <div class='div' id="cuatro">
       <img
         src="https://img.freepik.com/vector-premium/calendario-negocio-fecha-hora-icono-simbolo-dibujado-mano-ilustracion-arte-dibujos-animados_56104-987.jpg?w=2000" />
 
 
     </div>
-    <div class='recuadro' id="cinco">
+    <div class='div' id="cinco">
       <img src="https://inforges.es/wp-content/uploads/2023/02/chatgpt-que-es-y-que-puedes-hacer-con-el.jpg" />
 
     </div>
-    <div class='recuadro' id="seis">
+    <div class='div' id="seis">
       <img
         src="https://img.freepik.com/vector-gratis/formulario-documento-linea-acuerdo-digital-contrato-electronico-cuestionario-internet-hacer-lista-tenga-cuenta-boleta-votacion-elemento-diseno-plano-encuesta_335657-2667.jpg" />
 
@@ -66,10 +78,11 @@
 
   <footer>
     <h4>Redes sociales</h4>
-    <a href="#">Facebook</a>
-    <a href="#">Tiwtter</a>
+    <a href="https://es.linkedin.com/in/monicamrdam" target="_blank">LinkedIn</a>
+    <a href="https://github.com/proyectosprogramacion" target="_blank">Github</a>
   </footer>
 </body>
 <script src="script.js"></script>
+<script src="script_Pomodoro.js"></script>
 
 </html>
