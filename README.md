@@ -12,7 +12,7 @@ Esta es una aplicación inspirada en diferentes herramientas de productividad: t
 - [Licencia](#licencia)
 
 ## Demostración
-Puedes ver la aplicación en funcionamiento <a href="https://github.com/proyectosprogramacion/javascript_herramientasproductividad" target="_blank" rel="noreferrer">aquí.</a>
+Puedes ver la aplicación en funcionamiento <a href="https://proyectosprogramacion.github.io/javascript_herramientasproductividad/" target="_blank" rel="noreferrer">aquí.</a>
 
 ![Imagen del reloj pomodoro](imagenReloj.png)
 
