@@ -15,21 +15,19 @@
 </head>  
 
 <body>    
-    <header>
-        <h1>HERRRAMIENTAS DE PRODUCTIVIDAD</h1>      
-    </header>    
-    <nav>
+      <header>
+        <h1 class="titulo" >HERRRAMIENTAS DE PRODUCTIVIDAD</h1>     
+        <nav  class="nav" >
         <a href="index.html">Técnica Pomodoro</a>
         <a href="index_ToDoList.html">Lista de tareas</a>
         <a href="index_Formulario.html">Formulario</a>
 
-    </nav>
+    </nav> 
+    </header>  
     <section>
      <main class="app">  
-        <h2>Formulario de información</h2>    
+        <h2 class="titulo_formulario">Formulario de información</h2>    
      <div class="contenedor">
-        <div class="derecha" id="derecha"></div>
-        <div  class="izquierda" id="izquierda">
             <form>
                 <fieldset><!--Cajas tipo texto-->
                     <legend>Datos Personales</legend>
@@ -39,30 +37,30 @@
                 </fieldset>
                 
                 <fieldset><!--Cajas tipo radioButton -->
-                    <legend>Tipo de coche</legend>
+                    <legend>Categoría empleado</legend>
                     <!--Tipo radioButton todas tienen que tener el mismo name para que se seleccione solo uno -->
-                    <input type="radio" name="tipoCoche" value="Berlina" style="margin: 4px">Berlina
+                    <input type="radio" name="tipoEmpleado" value="Administrativo" style="margin: 4px">Administrativo
                     <br>
-                    <input type="radio" name="tipoCoche" value="Monovolumen" style="margin: 4px">Monovolumen
+                    <input type="radio" name="tipoEmpleado" value="Desarrollador" style="margin: 4px">Desarrollador
                     <br>
-                    <input type="radio" name="tipoCoche" value="SUV" style="margin: 4px">SUV
+                    <input type="radio" name="tipoEmpleado" value="Manager" style="margin: 4px">Manager
                 </fieldset>
                 
                 <fieldset>
                     <legend>Opciones</legend>
-                    <input type="checkbox" name="opciones" value="Climatizador" style="margin: 4px" >Climatizador
+                    <input type="checkbox" name="opciones" value="ProyectoPropio" style="margin: 4px" >Proyecto propio
                     <br>
-                    <input type="checkbox" name="opciones" value="GPS" style="margin: 4px">GPS
+                    <input type="checkbox" name="opciones" value="ProyectoCompañero" style="margin: 4px">Proyecto compañero
                 </fieldset>
 
                 
                 <fieldset>
-                    <legend>Color</legend>
-                    <select id="valorColor">
+                    <legend>Estado</legend>
+                    <select id="valorEstado">
                         <option value="0">===========</option>
-                        <option value="1">Rojo</option>
-                        <option value="2">Amarillo</option>
-                        <option value="3">Azul</option>
+                        <option value="1">Sin realizar</option>
+                        <option value="2">Pendiente</option>
+                        <option value="3">Completado</option>
                     </select>
                 </fieldset>
 
@@ -78,8 +76,19 @@
             <input type="button" value="CONFIRMAR" id="btConfirmar">
             <!--Boton para enviar tipo button para que se desabilite después de enviar
                 (tipo submit lo desabilita antes de enviar) --> 
-            <input type="button" value="ENVIAR" id="btEnviar">
-        </div>   
+            <input type="button" value="ENVIAR" id="btEnviar">  
+
+             <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p >Importante: </p>
+          <br>
+          <p id="parrafoModal"> </p>
+        </div>
+
+      </div>  
     </div>
 </main>
 </section>
@@ -87,7 +96,7 @@
 
 
 <footer>
-   <p>&copy; <span id="currentYear"></span> ProyectosProgramacion| Todos los derechos reservados.</p>
+   <p>&copy; <span id="agnoActual"></span> ProyectosProgramacion| Todos los derechos reservados.</p>
    <p><a href="#">Politica de privacidad</a> | <a href="#">Terminos de servicio</a> | <a href="https://proyectosprogramacion.com/" rel="noopener noreferrer" target="_blank">Creado por proyectosprogramacion</a></p>
    <h4>Redes sociales</h4>
    <a href="#">Linkedin</a>
@@ -95,6 +104,6 @@
 </footer>
 </body>  
 
-<script src="sript.js"></script>
+<script src="script.js"></script>
 <script src="script_formulario.js"></script>
 </html>

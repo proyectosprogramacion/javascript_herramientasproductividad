@@ -1,14 +1,12 @@
 # Herramientas de productividad
-Esta es una aplicación inspirada en diferentes herramientas de productividad: técnica de Pomodoro.
+Esta es una aplicación inspirada en diferentes herramientas de productividad: técnica de Pomodoro, lista de tareas y un formulario.
 
 
 ## Tabla de contenidos
 - [Demostración](#demostración)
 - [Características](#características)
 - [Tecnologías](#tecnologías)
-- [Instalación](#instalación)
 - [Usabilidad](#usabilidad)
-- [Contribución](#contribución)
 - [Licencia](#licencia)
 
 ## Demostración
@@ -18,8 +16,8 @@ Puedes ver la aplicación en funcionamiento <a href="https://proyectosprogramaci
 
 ## Características
 - **Reloj pomodoro**: muestra un reloj que permite gestionar el tiempo trabajando en intervalos de 25 minutos, sin interrupción ni distracciones.
-- **Lista de tareas pendientes**:  es una lista de cosas por hacer.
-- **Formuario**:  documento elaborado para que un usuario introduzca datos estructurados en las zonas correspondientes, para ser almacenados y procesados posteriormente.
+- **Lista de tareas pendientes**:  es una herramienta que nos permite construir una lista de cosas pendientes de hacer.
+- **Formuario**:  es un documento elaborado para que un usuario introduzca datos estructurados en las zonas correspondientes, para ser almacenados y procesados posteriormente.
 
 
 ## Tecnologías
@@ -27,19 +25,11 @@ Puedes ver la aplicación en funcionamiento <a href="https://proyectosprogramaci
 - CSS3
 - JavaScript
 
-## Instalación
-1. Clone this repository to your local machine.
-
-2. Open the `index.html` file in your web browser to start using the Pomodoro Clock.
 
 ## Usabilidad
-1. Set your desired work and break durations.
-2. Click the "Start" button to begin a Pomodoro session.
-3. The timer will count down, and you'll hear a notification when the session ends.
-4. Take a break, or start another session by clicking "Start" again.
+1. Puedes clonarte el repositorio en tu maquina local.
 
-## Contribución
-Feel free to contribute to the project by opening issues or submitting pull requests. Your contributions are welcomed and appreciated!
+2. Abriendo el `index.html`  en tu navegador, puedes empezar a utilizarlas.
 
 ## Licencia
-This project is licensed under the MIT License.
+Licencias Creative Commons. Dominio público (CC0). Si se crea una obra derivada, debe distribuirse bajo la misma licencia que la obra original.

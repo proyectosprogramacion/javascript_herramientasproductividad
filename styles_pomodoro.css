@@ -1,4 +1,7 @@
-
+.titulo_pomodoro{
+  top: 20%;
+  left: 50%;
+}
 
 .clock {
   background: linear-gradient(to right, #000000 0%, #252525 100%);
@@ -54,7 +57,7 @@
 .main-button {
   appearance: button;
   background-color: transparent;
-  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  background-image: linear-gradient(to bottom, #darkred, #f8eedb);
   border: 0 solid #e5e7eb;
   border-radius: .5rem;
   box-sizing: border-box;
@@ -79,7 +82,7 @@
 }
 
 .main-button:active {
-  background-color: #f3f4f6;
+  background-color: black;
   box-shadow: -1px 2px 5px rgba(81, 41, 10, 0.15), 0px 1px 1px rgba(81, 41, 10, 0.15);
   transform: translateY(0.125rem);
 }
@@ -90,4 +93,17 @@
 
 
 
+#minutos25{
+    font-size: 80%;
+  color: black;
 
+}
+#minutos05{
+  font-size: 80%;
+  display: none;
+}
+#minutos10{
+  font-size: 80%;
+
+  display: none;
+}
