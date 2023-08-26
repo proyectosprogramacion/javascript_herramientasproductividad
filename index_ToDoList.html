@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">  
+
+<head>    
+    <title>Herramientas de productividad</title>    
+    <meta name="title" content="Herramientas de productividad">
+    <meta name="description" content="Ejercicios de programacion utilizando HTML-CSS-JavaScript">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles_todolist.css" />
+    <link rel="icon" href="https://img.freepik.com/vector-gratis/reloj-grafico-creciente-aumento-productividad-flujo-trabajo-optimizacion-rendimiento-trabajo-indicador-eficiencia-metricas-efectividad-aumento-ilustracion-metafora-concepto-aislado-vector_335657-2718.jpg?w=2000" type="image/x-icon">   
+</head>  
+
+<body>    
+    <header>
+        <h1>HERRRAMIENTAS DE PRODUCTIVIDAD</h1>      
+    </header>    
+    <nav>
+        <a href="index.html">Técnica Pomodoro</a>
+        <a href="index_ToDoList.html">Lista de tareas</a>
+        <a href="index_Formulario.html">Formulario</a>
+    </nav>
+    <section> 
+    <main class="app">
+          <h2>Organizador de tareas</h2>
+     <div class="contenedor">     
+        <input
+          id="nombre_tarea"
+          type="text"
+          placeholder="Nueva tarea"
+          name="nombre_tarea"
+        />
+        <button id="agregar">Agregar</button>
+        <select id="filtro_estado">
+          <option value="todas">Todas</option>
+          <option value="completada">Completadas</option>
+          <option value="pendiente">Pendientes</option>
+        </select>
+      <ul id="lista"></ul>
+      <button id="borrar_todo">Borrar todas las tareas</button>
+      <button id="borrar_tareasCompletadas">Borrar tareas completadas</button>
+        </div>
+    </main>
+</section>
+
+
+
+<footer>
+   <p>&copy; <span id="currentYear"></span> ProyectosProgramacion| Todos los derechos reservados.</p>
+   <p><a href="#">Politica de privacidad</a> | <a href="#">Terminos de servicio</a> | <a href="https://proyectosprogramacion.com/" rel="noopener noreferrer" target="_blank">Creado por proyectosprogramacion</a></p>
+   <h4>Redes sociales</h4>
+   <a href="#">Linkedin</a>
+   <a href="#">Tiwtter</a>
+</footer>
+</body>  
+
+<script src="sript.js"></script>
+<script src="script_todolist.js"></script>
+</html>
