@@ -16,44 +16,45 @@
 
 <body>    
     <header>
-        <h1 class="main-headline">HERRRAMIENTAS DE PRODUCTIVIDAD</h1>      
+        <h1>HERRRAMIENTAS DE PRODUCTIVIDAD</h1>      
     </header>    
     <nav>
         <a href="index.html">Técnica Pomodoro</a>
         <a href="index_ToDoList.html">Lista de tareas</a>
+        <a href="index_Formulario.html">Formulario</a>
+
     </nav>
-    <section class="app">      
-     <div class="progress-bar"></div>
-     <div class="timer">
-      <div class="button-group mode-buttons" id="js-mode-buttons">
-        <button data-mode="pomodoro" class="button active mode-button" id="js-pomodoro"> Pomodoro </button>
-        <button data-mode="shortBreak" class="button mode-button" id="js-short-break"> Short break </button>
-        <button data-mode="longBreak" class="button mode-button" id="js-long-break"> Long break </button>
-    </div>
-    <div class="clock" id="js-clock">
-        <span id="js-minutes">25</span>
-        <span class="separator">:</span>
-        <span id="js-seconds">00</span>
-    </div>
-    <button class="main-button" data-action="start" id="js-btn">  Start ▶️</button>   
+    <section>
+    <main class="app">
+          <h2>Reloj Pomodoro</h2>
+     <div class="contenedor">
+        <div class="button-group mode-buttons" id="js-mode-buttons">
+            <button data-mode="pomodoro" class="button active mode-button" id="js-pomodoro"> Pomodoro </button>
+            <button data-mode="shortBreak" class="button mode-button" id="js-short-break"> Short break </button>
+            <button data-mode="longBreak" class="button mode-button" id="js-long-break"> Long break </button>
+        </div>
+        <div class="clock" id="js-clock">
+             <span id="js-minutes">25</span>
+            <span class="separator">:</span>
+             <span id="js-seconds">00</span>
+        </div>
+        <button class="main-button" data-action="start" id="js-btn">  Start ▶️</button>   
+    </main>  
+      
 </section>
 
 
-<div class="hidden">
-    <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
-    <audio src="break.mp3" data-sound="shortBreak"></audio>
-    <audio src="break.mp3" data-sound="longBreak"></audio>
-</div>
-
 
 <footer>
-    <p>&copy; <span id="currentYear"></span> Herramientas de productividad | Todos los derechos reservados.</p>
-   <p><a href="#">Politica de privacidad</a> | <a href="#">Terminos de servicio</a> | <a href="https://proyectosprogramacion.com/" rel="noopener noreferrer" target="_blank">Creado por proyectos programación</a></p>
+   <p>&copy; <span id="currentYear"></span> ProyectosProgramacion| Todos los derechos reservados.</p>
+   <p><a href="#">Politica de privacidad</a> | <a href="#">Terminos de servicio</a> | <a href="https://proyectosprogramacion.com/" rel="noopener noreferrer" target="_blank">Creado por proyectosprogramacion</a></p>
    <h4>Redes sociales</h4>
    <a href="#">Linkedin</a>
    <a href="#">Tiwtter</a>
 </footer>
 </body>  
 
-<script src="main.js"></script>
+<script src="sript.js"></script>
+<script src="script_pomodoro.js"></script>
+
 </html>
