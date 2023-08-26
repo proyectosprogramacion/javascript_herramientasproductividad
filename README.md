@@ -1,5 +1,5 @@
-# Reloj Pomodoro
-Esta es una aplicación inspirada en la Técnica de Pomodoro.
+# Herramientas de productividad
+Esta es una aplicación inspirada en diferentes herramientas de productividad: técnica de Pomodoro.
 
 
 ## Tabla de contenidos
@@ -8,11 +8,11 @@ Esta es una aplicación inspirada en la Técnica de Pomodoro.
 - [Tecnologías](#tecnologías)
 - [Instalación](#instalación)
 - [Usabilidad](#usabilidad)
-- [Contribucion](#contribucion)
+- [Contribución](#contribución)
 - [Licencia](#licencia)
 
-## Demostracion
-You can check out the Pomodoro Clock in action <a href="http://jonatantech.github.io/pomodoro-clock/" target="_blank" rel="noreferrer">here.</a>
+## Demostración
+Puedes ver la aplicación en funcionamiento <a href="https://github.com/proyectosprogramacion/javascript_herramientasproductividad" target="_blank" rel="noreferrer">aquí.</a>
 
 ![Pomodoro Clock Screenshot](pomodoro.webp)
 
@@ -38,7 +38,7 @@ You can check out the Pomodoro Clock in action <a href="http://jonatantech.githu
 3. The timer will count down, and you'll hear a notification when the session ends.
 4. Take a break, or start another session by clicking "Start" again.
 
-## Contribucion
+## Contribución
 Feel free to contribute to the project by opening issues or submitting pull requests. Your contributions are welcomed and appreciated!
 
 ## Licencia
