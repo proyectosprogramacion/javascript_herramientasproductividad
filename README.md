@@ -17,9 +17,9 @@ Puedes ver la aplicación en funcionamiento <a href="https://proyectosprogramaci
 ![Imagen del reloj pomodoro](imagenReloj.png)
 
 ## Características
-- **Reloj pomodoro**: Muestra un reloj que permite gestionar el tiempo trabajando en intervalos de 25 minutos, sin interrupción ni distracciones.
+- **Reloj pomodoro**: muestra un reloj que permite gestionar el tiempo trabajando en intervalos de 25 minutos, sin interrupción ni distracciones.
 - **Lista de tareas pendientes**:  es una lista de cosas por hacer.
-- **Formuario**:documento elaborado para que un usuario introduzca datos estructurados en las zonas correspondientes, para ser almacenados y procesados posteriormente.
+- **Formuario**:  documento elaborado para que un usuario introduzca datos estructurados en las zonas correspondientes, para ser almacenados y procesados posteriormente.
 
 
 ## Tecnologías

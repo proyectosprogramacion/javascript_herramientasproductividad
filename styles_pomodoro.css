@@ -1,5 +1,22 @@
 
 
+html {
+  background:black;
+  background-image: url(https://img.freepik.com/vector-gratis/vector-fondo-hermoso-textura-acuarela-amarillo-suave-moderno_1055-12605.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+
+}
+
+
 :root {
   --pomodoro: #7ecbfa;
   --shortBreak: #fadbaf;
@@ -126,80 +143,6 @@
   display: none;
 }
 
-
-@media screen and (max-width: 664px) {
-  .clock {
-    font-size: 8rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .main-button {
-    width: auto;
-  }
-
-  .main-headline {
-    top: 20%;
-    font-size: 25px;
-    width: 70%;
-  }
-
-  .sub-headline {
-    top: 26%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .main-headline {
-    top: 10%;
-    font-size: 20px;
-    width: 70%;
-  }
-
-  .sub-headline {
-    top: 10%;
-  }
-
-  .clock {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .timer {
-    top: 50%;
-  }
-}
-
-
-@media screen and (max-width: 390px) {
-  .main-headline {
-    font-size: 20px;
-    width: 70%;
-    top: 15%;
-  }
-
-  .sub-headline {
-    top: 28%;
-  }
-
-  .clock {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .timer {
-    top: 60%;
-  }
-
-  .mode-button {
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
-
- 
-}
-
-
 footer {
   color: rgb(37, 37, 37);
   font-size: 12px;
@@ -213,11 +156,3 @@ footer {
 }
 
 
-
-a,
-a:visited,
-a:hover,
-a:active {
-  color: inherit;
-  text-decoration: none;
-}
