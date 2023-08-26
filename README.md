@@ -14,13 +14,13 @@ Esta es una aplicación inspirada en diferentes herramientas de productividad: t
 ## Demostración
 Puedes ver la aplicación en funcionamiento <a href="https://github.com/proyectosprogramacion/javascript_herramientasproductividad" target="_blank" rel="noreferrer">aquí.</a>
 
-![Pomodoro Clock Screenshot](pomodoro.webp)
+![Imagen del reloj pomodoro](imagenReloj.png)
 
 ## Características
-- **Pomodoro Timer**: Set work and break intervals for effective time management.
-- **Audio Alerts**: Get audible notifications when a session ends.
-- **Responsive**: Works on both desktop and mobile devices.
-- **Notifications**: Users receive notifications whenever a stage begins or ends.
+- **Reloj pomodoro**: Muestra un reloj que permite gestionar el tiempo trabajando en intervalos de 25 minutos, sin interrupción ni distracciones.
+- **Lista de tareas pendientes**:  es una lista de cosas por hacer.
+- **Formuario**:documento elaborado para que un usuario introduzca datos estructurados en las zonas correspondientes, para ser almacenados y procesados posteriormente.
+
 
 ## Tecnologías
 - HTML5
