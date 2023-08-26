@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">  
+
+<head>    
+    <title>Herramientas de productividad</title>    
+    <meta name="title" content="Herramientas de productividad">
+    <meta name="description" content="Ejercicios de programacion utilizando HTML-CSS-JavaScript">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="https://img.freepik.com/vector-gratis/reloj-grafico-creciente-aumento-productividad-flujo-trabajo-optimizacion-rendimiento-trabajo-indicador-eficiencia-metricas-efectividad-aumento-ilustracion-metafora-concepto-aislado-vector_335657-2718.jpg?w=2000" type="image/x-icon">   
+</head>  
+
+<body>    
+    <header>
+        <h1 class="main-headline">HERRRAMIENTAS DE PRODUCTIVIDAD</h1>      
+    </header>    
+    <nav>
+        <a href="index.html">Técnica Pomodoro</a>
+        <a href="#">IR SECCIÓN 3</a>
+    </nav>
+    <section class="app">      
+     <progress id="js-progress" value="0"></progress>
+     <div class="progress-bar"></div>
+     <div class="timer">
+      <div class="button-group mode-buttons" id="js-mode-buttons">
+        <button data-mode="pomodoro" class="button active mode-button" id="js-pomodoro"> Pomodoro </button>
+        <button data-mode="shortBreak" class="button mode-button" id="js-short-break"> Short break </button>
+        <button data-mode="longBreak" class="button mode-button" id="js-long-break"> Long break </button>
+    </div>
+    <div class="clock" id="js-clock">
+        <span id="js-minutes">25</span>
+        <span class="separator">:</span>
+        <span id="js-seconds">00</span>
+    </div>
+    <button class="main-button" data-action="start" id="js-btn">  Start ▶️</button>   
+</section>
+
+
+<div class="hidden">
+    <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
+    <audio src="break.mp3" data-sound="shortBreak"></audio>
+    <audio src="break.mp3" data-sound="longBreak"></audio>
+</div>
+
+
+<footer>
+    <p>&copy; <span id="currentYear"></span> Herramientas de productividad | Todos los derechos reservados.</p>
+   <p><a href="#">Politica de privacidad</a> | <a href="#">Terminos de servicio</a> | <a href="https://proyectosprogramacion.com/" rel="noopener noreferrer" target="_blank">Creado por proyectos programación</a></p>
+   <h4>Redes sociales</h4>
+   <a href="#">Linkedin</a>
+   <a href="#">Tiwtter</a>
+</footer>
+</body>  
+
+<script src="main.js"></script>
+</html>
